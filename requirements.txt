@@ -1,0 +1,15 @@
+# Core ML framework – install the CUDA-enabled wheel matching your driver:
+# https://pytorch.org/get-started/locally/
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# NVIDIA NeMo ASR toolkit (includes Parakeet / CTC / TDT models)
+nemo_toolkit[asr]>=1.23.0
+
+# Real-time audio I/O
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# Numerical / signal processing
+numpy>=1.24.0
+scipy>=1.11.0
